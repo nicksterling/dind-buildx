@@ -5,7 +5,7 @@ cd ~
 git clone git://github.com/nicksterling/dind-buildx && cd dind-buildx
 #git checkout stable
 
-cd ..
+cd ~
 
 git clone git://github.com/docker/buildx && cd buildx
 export DOCKER_BUILDKIT=1
