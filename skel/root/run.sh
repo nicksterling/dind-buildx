@@ -17,4 +17,5 @@ mv buildx ~/dind-buildx/skel/.docker/cli-plugins/docker-buildx
 cd ~/dind-buildx
 
 docker build -t nicksterling/dind-buildx:stable .
+docker push nicksterling/dind-buildx:stable
 
