@@ -1,5 +1,7 @@
 #!/bin/sh
 
+apk add --no-cache vim git
+
 cd ~
 
 git clone git://github.com/nicksterling/dind-buildx && cd dind-buildx
